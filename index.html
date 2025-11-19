@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Układ bloków</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            width: 400px;
+            font-family: Arial, sans-serif;
+        }
+        td {
+            border: 1px solid black;
+            padding: 20px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        nav a {
+            margin: 5px;
+            padding: 8px 12px;
+            border: 1px solid black;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nagłówek strony</h1>
+    </header>
+
+    <nav>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+    </nav>
+
+    <h2>bloczki</h2>
+
+    <table>
+        <tr>
+            <td colspan="3" class="bold">
+                nagłówek
+            </td>
+        </tr>
+
+        <tr>
+            <td>lewa</td>
+            <td>środek</td>
+            <td>prawa</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="bold">
+                stopka
+            </td>
+        </tr>
+    </table>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Stopka strony</p>
+    </footer>
+
+</body>
+</html>
